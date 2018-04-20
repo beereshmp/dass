@@ -8,6 +8,8 @@ public class Test {
 		System.out.println("..............");
 		System.out.println("dass....");
 		System.out.println("..............");
+		
+		String[] arr={"sdc","fhbft","dvcsd","zdcsz"};
 	}
 
 }
