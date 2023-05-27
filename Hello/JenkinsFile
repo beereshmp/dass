@@ -1,0 +1,30 @@
+pipeline{
+    agent any
+    stages{
+        stage("First"){
+            steps{
+                echo" First stage from Git"
+            }
+        }
+        stage("Second"){
+            steps{
+                echo" Second stage from Git"
+            }
+        }
+        stage("Third"){
+            steps{
+                echo" Third stage from Git"
+            }
+        }
+        stage("Fourth"){
+            steps{
+                echo" Fourth stage from Git"
+            }
+        }
+        stage("Fourth"){
+            steps{
+                echo" Fourth stage from Git"
+            }
+        }
+    }
+}
